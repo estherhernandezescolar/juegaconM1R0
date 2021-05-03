@@ -1,8 +1,8 @@
 :root {
-  --page-bg: rgb(2, 72, 112);
-  --page-bg-start: rgba(2, 72, 112, 1) 0%;
-  --page-bg-middle: rgba(91, 29, 253, 1) 50%;
-  --page-bg-end: rgba(252, 69, 176, 1) 100%;
+  --page-bg: #b9b3b7;
+  --page-bg-start: #6e3dcf 0%;
+  --page-bg-middle: #ff0098 50%;
+  --page-bg-end: #6e3dcf 100%;
   --page-bg-angle: 180deg;
   --bg-start: rgba(179, 205, 255, 0.22);
   --bg-end: rgba(244, 245, 245, 0.651);
@@ -10,14 +10,14 @@
   --bg-welcome: rgb(244, 244, 245);
   --bg-red: rgb(215, 67, 90);
   --title-shadow: #cd86d6;
-  --white: #ffffff;
+  --white: #2d0066;
   --popup-bg: rgba(17, 17, 20, 0.918);
 }
 
 * {
   margin: 0;
   padding: 0;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Open Sans";
   color: rgb(88, 91, 94);
 }
 
@@ -353,46 +353,49 @@ header {
   transform: translateY(-200px);
 }
 .b {
-  transform: rotate(14deg) translateY(-200px) rotate(-14deg);
+  transform: rotate(13deg) translateY(-200px) rotate(-13deg);
 }
 .c {
-  transform: rotate(28deg) translateY(-200px) rotate(-28deg);
+  transform: rotate(26deg) translateY(-200px) rotate(-26deg);
 }
 .d {
-  transform: rotate(42deg) translateY(-200px) rotate(-42deg);
+  transform: rotate(39deg) translateY(-200px) rotate(-39deg);
 }
 .e {
-  transform: rotate(56deg) translateY(-200px) rotate(-56deg);
+  transform: rotate(52deg) translateY(-200px) rotate(-52deg);
 }
 .f {
-  transform: rotate(70deg) translateY(-200px) rotate(-70deg);
+  transform: rotate(65deg) translateY(-200px) rotate(-65deg);
 }
 .g {
-  transform: rotate(84deg) translateY(-200px) rotate(-84deg);
+  transform: rotate(78deg) translateY(-200px) rotate(-78deg);
 }
 .h {
-  transform: rotate(98deg) translateY(-200px) rotate(-98deg);
+  transform: rotate(92deg) translateY(-200px) rotate(-92deg);
 }
 .i {
-  transform: rotate(112deg) translateY(-200px) rotate(-112deg);
+  transform: rotate(105deg) translateY(-200px) rotate(-105deg);
 }
 .j {
-  transform: rotate(126deg) translateY(-200px) rotate(-126deg);
+  transform: rotate(118deg) translateY(-200px) rotate(-118deg);
 }
 .k {
-  transform: rotate(140deg) translateY(-200px) rotate(-140deg);
+  transform: rotate(131deg) translateY(-200px) rotate(-131deg);
 }
 .l {
-  transform: rotate(154deg) translateY(-200px) rotate(-154deg);
+  transform: rotate(144deg) translateY(-200px) rotate(-144deg);
 }
 .m {
-  transform: rotate(168deg) translateY(-200px) rotate(-168deg);
+  transform: rotate(158deg) translateY(-200px) rotate(-158deg);
 }
 .n {
-  transform: rotate(182deg) translateY(-200px) rotate(-182deg);
+  transform: rotate(171deg) translateY(-200px) rotate(-171deg);
+}
+.ñ {
+  transform: rotate(184deg) translateY(-200px) rotate(-184deg);
 }
 .o {
-  transform: rotate(196deg) translateY(-200px) rotate(-196deg);
+  transform: rotate(197deg) translateY(-200px) rotate(-197deg);
 }
 .p {
   transform: rotate(210deg) translateY(-200px) rotate(-210deg);
@@ -401,28 +404,28 @@ header {
   transform: rotate(224deg) translateY(-200px) rotate(-224deg);
 }
 .r {
-  transform: rotate(238deg) translateY(-200px) rotate(-238deg);
+  transform: rotate(237deg) translateY(-200px) rotate(-237deg);
 }
 .s {
-  transform: rotate(252deg) translateY(-200px) rotate(-252deg);
+  transform: rotate(250deg) translateY(-200px) rotate(-250deg);
 }
 .t {
-  transform: rotate(266deg) translateY(-200px) rotate(-266deg);
+  transform: rotate(264deg) translateY(-200px) rotate(-264deg);
 }
 .u {
-  transform: rotate(280deg) translateY(-200px) rotate(-280deg);
+  transform: rotate(278deg) translateY(-200px) rotate(-278deg);
 }
 .v {
-  transform: rotate(293deg) translateY(-200px) rotate(-293deg);
+  transform: rotate(292deg) translateY(-200px) rotate(-292deg);
 }
 .w {
-  transform: rotate(306deg) translateY(-200px) rotate(-306deg);
+  transform: rotate(305deg) translateY(-200px) rotate(-305deg);
 }
 .x {
-  transform: rotate(318deg) translateY(-200px) rotate(-318deg);
+  transform: rotate(319deg) translateY(-200px) rotate(-319deg);
 }
 .y {
-  transform: rotate(332deg) translateY(-200px) rotate(-332deg);
+  transform: rotate(333deg) translateY(-200px) rotate(-333deg);
 }
 .z {
   transform: rotate(346deg) translateY(-200px) rotate(-346deg);

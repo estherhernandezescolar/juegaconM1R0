@@ -34,164 +34,182 @@ const ORIGINAL_QUESTIONS = [
 
   {
     letter: "e",
-    answer: "ectoplasma",
+    answer: "erótico",
     status: 0,
-    question: "CON LA E. Que despierta el deseo sexual",
+    question: "CON LA E. Que despierta el deseo sexual (elegante o erótico)",
   },
 
   {
     letter: "f",
-    answer: "facil",
+    answer: "ofensivo",
     status: 0,
-    question: "CON LA F. Que no requiere gran esfuerzo, capacidad o dificultad",
+    question:
+      "CONTIENE LA F. Que humilla o hiere el amor propio o la dignidad de alguien (ofensivo o efectivo)",
   },
 
   {
     letter: "g",
-    answer: "galaxia",
+    answer: "grooming",
     status: 0,
     question:
-      "CON LA G. Conjunto enorme de estrellas, polvo interestelar, gases y partículas",
+      "CON LA G. Acoso en el que un adulto se hace pasar por un menor, creando un vínculo de confianza para luego involucrarlo en una actividad sexual (grooming o griming)",
   },
 
   {
     letter: "h",
-    answer: "harakiri",
+    answer: "honor",
     status: 0,
-    question: "CON LA H. Suicidio ritual japonés por desentrañamiento",
+    question:
+      "CON LA H. Cualidad moral que lleva a alguien a no hacer nada que lo pueda desmerecer en la estima de los demás o la suya propia (honor o herencia)",
   },
 
   {
     letter: "i",
-    answer: "iglesia",
+    answer: "intimidad",
     status: 0,
-    question: "CON LA I. Templo cristiano",
+    question:
+      "CON LA I. Zona espiritual, íntima y reservada de una persona o de un grupo (intimidad o inocencia)",
   },
 
   {
     letter: "j",
-    answer: "jabali",
+    answer: "vejatorio",
     status: 0,
     question:
-      "CON LA J. Variedad salvaje del cerdo que sale en la película 'El Rey León', de nombre Pumba",
+      "CONTIENE LA J. Humillante, ofensivo, denigrante, insultante, ultrajante (vejatorio o enjambre)",
   },
 
   {
     letter: "k",
-    answer: "kamikaze",
+    answer: "TikTok",
     status: 0,
     question:
-      "CON LA K. Persona que se juega la vida realizando una acción temeraria",
+      "CONTIENE LA K. Servicio de redes sociales para compartir vídeos (TikTok o eureka)",
   },
 
   {
     letter: "l",
-    answer: "licantropo",
+    answer: "calumnia",
     status: 0,
-    question: "CON LA L. Hombre lobo",
+    question:
+      "CONTIENE LA L. Acusación falsa, hecha para causar daño (alegría o calumnia)",
   },
 
   {
     letter: "m",
-    answer: "misantropo",
+    answer: "M1R0",
     status: 0,
     question:
-      "CON LA M. Persona que huye del trato con otras personas o siente gran aversión hacia ellas",
+      "CON LA M. El robot más molón del mundo cibernético (Mariano o M1R0)",
   },
 
   {
     letter: "n",
-    answer: "necedad",
+    answer: "conflicto",
     status: 0,
-    question: "CON LA N. Demostración de poca inteligencia",
+    question:
+      "CONTIENE LA N. Enfrentamiento o pelea entre dos o más personas (conflicto o entrevista)",
+  },
+
+  {
+    letter: "ñ",
+    answer: "niño",
+    status: 0,
+    question: "CONTIENE LA Ñ. Víctima en el grooming (muñeco o niño)",
   },
 
   {
     letter: "o",
-    answer: "orco",
+    answer: "testigo",
     status: 0,
     question:
-      "CON LA O. Humanoide fantástico de apariencia terrible y bestial, piel de color verde creada por el escritor Tolkien",
+      "CONTIENE LA O. Persona que presencia de manera directa un cierto acontecimiento (testigo o profesor)",
   },
 
   {
     letter: "p",
-    answer: "protoss",
+    answer: "público",
     status: 0,
-    question:
-      "CON LA P. Raza ancestral tecnológicamente avanzada que se caracteriza por sus grandes poderes psíonicos del videojuego StarCraft",
+    question: "CON LA P. Accesible a todos. (público o privado)",
   },
 
   {
     letter: "q",
-    answer: "queso",
+    answer: "código QR",
     status: 0,
     question:
-      "CON LA Q. Producto obtenido por la maduración de la cuajada de la leche",
+      "CON LA Q. Tipo de código de barras para acceder a una web concreta (código QR o código QS)",
   },
 
-  { letter: "r", answer: "raton", status: 0, question: "CON LA R. Roedor" },
+  {
+    letter: "r",
+    answer: "Redes Sociales",
+    status: 0,
+    question:
+      "CON LA R. Plataformas digitales de comunicación global que ponen en contacto a gran número de usuarios/as (radio o redes sociales)",
+  },
 
   {
     letter: "s",
-    answer: "stackoverflow",
+    answer: "acosadora",
     status: 0,
-    question: "CON LA S. Comunidad salvadora de todo desarrollador informático",
+    question:
+      "CONTIENE LA S. Persona que realiza el acoso (acosadora o asalariada)",
   },
 
   {
     letter: "t",
-    answer: "terminator",
+    answer: "TIC",
     status: 0,
     question:
-      "CON LA T. Película del director James Cameron que consolidó a Arnold Schwarzenegger como actor en 1984",
+      "CON LA T. Conjunto de técnicas y equipos informáticos que permiten comunicarse a distancia por vía electrónica (TIC o tecnicismo)",
   },
 
   {
     letter: "u",
-    answer: "unamuno",
+    answer: "trauma",
     status: 0,
     question:
-      "CON LA U. Escritor y filósofo español de la generación del 98 autor del libro 'Niebla' en 1914",
+      "CONTIENE LA U. Evento que amenaza el bienestar o la vida de un individuo y la consecuencia de ese evento en la estructura mental o vida emocional del mismo (trauma o vuelo)",
   },
 
   {
     letter: "v",
-    answer: "vikingos",
+    answer: "víctima",
     status: 0,
     question:
-      "CON LA V. Nombre dado a los miembros de los pueblos nórdicos originarios de Escandinavia, famosos por sus incursiones y pillajes en Europa",
+      "CON LA V. Persona que ha sufrido daño producto de la comisión de un delito (violento o víctima)",
   },
 
   {
     letter: "w",
-    answer: "sandwich",
+    answer: "whatsapp",
     status: 0,
     question:
-      "CONTIENE LA W. Emparedado hecho con dos rebanadas de pan entre las cuales se coloca jamón y queso",
+      "CON LA W. Aplicación móvil para el envío de mensajes y llamadas (whatsapp o wallapop) ",
   },
 
   {
     letter: "x",
-    answer: "botox",
+    answer: "sexting",
     status: 0,
-    question: "CONTIENE LA X. Toxina bacteriana utilizada en cirujía estética",
+    question:
+      "CONTIENE LA X. Enviar mensajes, fotos o vídeos eróticos y sexuales a través del móvil (soxting o sexting)",
   },
 
   {
     letter: "y",
-    answer: "peyote",
+    answer: "cyberbullyng",
     status: 0,
-    question:
-      "CONTIENE LA Y. Pequeño cáctus conocido por sus alcaloides psicoactivos utilizado de forma ritual y medicinal  por indígenas americanos",
+    question: "CONTIENE LA Y. Ciberacoso en inglés (cyberbullyng o cybering)",
   },
 
   {
     letter: "z",
-    answer: "zen",
+    answer: "amenazar",
     status: 0,
     question:
-      "CON LA Z. Escuela de budismo que busca la experiencia de la sabiduría más allá del discurso racional",
+      "CONTIENE LA Z. Delito que consiste en intimidar a alguien con el argumento de que se va a ejercer un mal grave sobre él o su familia (amenazar o victimizar)",
   },
 ];
 const LETTERS = [
@@ -209,6 +227,7 @@ const LETTERS = [
   "l",
   "m",
   "n",
+  "ñ",
   "o",
   "p",
   "q",
